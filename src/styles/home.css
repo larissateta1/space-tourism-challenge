@@ -1,0 +1,207 @@
+.heading{
+    text-transform: uppercase;
+    font-weight: 100;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 4.75;
+    font-size: 2.5em;
+    white-space: nowrap;
+}
+.space{
+    display: block;
+    font-size: 150px;
+    font-family:'Bellefair', serif;
+}
+.details1{
+    margin-top: 10px;
+    font-size: 18px;
+    width: 24em;
+    letter-spacing: 2.35;
+}
+.explore{
+    color: #0b0d17;
+    font-weight: 500;
+}
+/* ---------------------------DESKTOP ----------------------------------------- */
+@media only screen and (min-height: 768px) {
+    .home-main{
+        background-image: url(../assets//home/background-home-desktop.jpg);
+        height: 100vh;
+        width: 100%;
+    }
+    .main1{
+        margin-left: 8em;
+        margin-top: 16em;
+        display: flex;
+    }
+    .group{
+        background-color: white;
+        width: 210px;
+        height: 210px;
+        color: #0b0d17;
+        border-radius: 138px;
+        align-items: flex-start;
+        display: flex;
+        justify-content: center;
+        
+        margin-top: 3em;
+    }
+    .group-hover{
+        align-items: flex-start;
+        display: flex;
+        width: 280px;
+        height: 280px;
+        justify-content: center;
+        margin-top: 112px;
+        overflow: hidden;
+        border-radius: 179px;
+        cursor: pointer;
+        margin-left: 340px;
+        transition: background-color 0.3s ease;
+    }
+    .group-hover:hover{
+        background-color: #42444db2;
+        transition-delay: 0.1s;
+    }
+    
+    .overlap-group1{
+        align-items: flex-end;
+        display: flex;
+        padding: 83px 63px;
+        text-align: center;
+        font-size: 32px;
+        font-weight: 400;
+        font-family:'Bellefair', serif;
+    }   
+    
+}
+/* --------------------------- TABLET ----------------------------------------- */
+
+@media only screen and (max-width: 768px )and (min-width: 600px){
+    .home-main{
+        background-image: url('../assets/home/background-home-tablet.jpg');
+        height: 100vh;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .main1{
+        flex-direction: column;
+        margin: auto;
+        
+        
+    }
+    .head{
+        margin-left: 10em;
+    }
+    .details1{
+        margin: auto;
+        margin-bottom: 3em;
+    }
+    .group{
+        background-color: white;
+        width: 276px;
+        height: 276px;
+        color: #0b0d17;
+        border-radius: 138px;
+        align-items: flex-start;
+        display: flex;
+        justify-content: center;
+        margin-top: 3em;
+    }
+    
+    .overlap-group1{
+        align-items: flex-end;
+        display: flex;
+        padding: 110px 63px;
+        text-align: center;
+        font-size: 32px;
+        font-weight: 400;
+    } 
+    .group-hover{
+        align-items: flex-start;
+        display: flex;
+        width: 350px;
+        height: 350px;
+        justify-content: center;
+        margin-top: 52px;
+        overflow: hidden;
+        border-radius: 179px;
+        cursor: pointer;
+        margin-left: 240px;
+        transition: background-color 0.3s ease;
+    }
+    .group-hover:hover{
+        background-color: #42444db2;
+        transition-delay: 0.1s;
+    }
+}
+/* --------------------------- MOBILE ----------------------------------------- */
+
+@media only screen and (max-width: 600px){
+    .home-main{
+        background-image: url('../assets/home/background-home-mobile.jpg');
+        height: 110vh;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .main{
+        margin-top: 6em;
+        height: 100vh;
+    }
+    .space{
+        font-size: 5em;
+        text-align: center;
+    }
+    .details1{
+        width: 15em;
+        margin: 2em auto;
+    }
+    .details1 p{
+        font-size: .8em;
+        text-align: center;
+    }
+    .heading{
+        margin: auto;
+        font-size: 28px;
+        text-align: center;
+    }
+    .group{
+        background-color: white;
+        width: 256px;
+        height: 256px;
+        color: #0b0d17;
+        border-radius: 138px;
+        align-items: flex-start;
+        display: flex;
+        justify-content: center;
+        margin-top: 1em;
+        margin-left: 0em;
+    }
+    
+    .overlap-group1{
+        align-items: flex-end;
+        display: flex;
+        padding: 110px 63px;
+        text-align: center;
+        font-size: 32px;
+        font-weight: 400;
+    } 
+    .group-hover{
+        align-items: flex-start;
+        display: flex;
+        width: 280px;
+        height: 280px;
+        justify-content: center;
+        margin-top: 52  px;
+        overflow: hidden;
+        border-radius: 179px;
+        cursor: pointer;
+        margin-left: 50px;
+        transition: background-color 0.3s ease;
+    }
+    .group-hover:hover{
+        background-color: #979797;
+        transition-delay: 0.1s;
+    }
+}
