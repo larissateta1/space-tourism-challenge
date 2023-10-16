@@ -13,7 +13,7 @@ const Destinations=()=>{
     }
     return(
         <div className="dest-main">
-            <NavBar/>    
+            <NavBar activeLink={"Destination"}/>    
                 <div>
                             <div className="sub">
                                 <div>

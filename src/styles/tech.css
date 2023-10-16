@@ -11,7 +11,7 @@
 .circles div{
     /* background-color: white; */
     border: 1px solid rgba(255, 255, 255, 0.322);
-    margin-top: 5em;
+    margin-top: 4em;
     /* color: #0b0d17; */
     font-family:'Bellefair', serif;
     /* height: 60px; */
@@ -39,7 +39,8 @@
 }
 .techDetail{
     display: flex;
-    margin-top: 8em;
+    margin-top: 6em;
+    margin-right: 4em;
 }
 .techDetail img{
     margin-left: 5em;
@@ -49,17 +50,17 @@
     font-family:'Bellefair', serif;
 }
 .techDetail p{
-    font-size: 16px;
+    font-size: 20px;
 }
 .sub2{
     display: flex;
-    margin: 8em;
+    margin: 10em;
 }
 /* ---------------------------DESKTOP ----------------------------------------- */
 @media only screen and (min-height: 768px) {
     .tech-main{
         background-image: url(../assets/technology/background-technology-desktop.jpg);
-        height: 100vh;
+        height: 120vh;
         width: 100%;
         background-repeat: no-repeat;
         background-size: cover;
@@ -103,7 +104,7 @@
 @media only screen and (max-width: 600px){
     .tech-main{
         background-image: url('../assets/technology/background-technology-mobile.jpg');
-        height: 240vh;
+        height: 250vh;
         width: 180%;
         background-repeat: no-repeat;
         background-size: cover;
@@ -113,10 +114,11 @@
     }
     .circles{
         display: flex;
-        margin-left: 10em;
+        margin-left: 8em;
     }
     .circles div{
         margin-right: 3em;
+        font-size: 16px;
 
     }
     .techDetail{
@@ -127,6 +129,7 @@
     }
     .techDetail img{
         margin-left: -3em;
+        margin-bottom: 2em;
     }
     .techDetail h1{
         text-align: center;

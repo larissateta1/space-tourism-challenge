@@ -11,7 +11,7 @@ const Technology=()=>{
     }
     return(
         <div className="tech-main">
-            <NavBar/>
+            <NavBar activeLink={"Technology"}/>
             <div className="sub2">
                 <div>
                     <h1 className="heading"><span className="one">03</span> SPACE LAUNCH 101</h1>

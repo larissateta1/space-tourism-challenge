@@ -140,7 +140,7 @@
 @media only screen and (max-width: 600px){
     .home-main{
         background-image: url('../assets/home/background-home-mobile.jpg');
-        height: 100vh;
+        height: 110vh;
         width: 100%;
         background-repeat: no-repeat;
         background-size: cover;
@@ -163,7 +163,7 @@
     }
     .heading{
         margin: auto;
-        font-size: 1.3em;
+        font-size: 28px;
         text-align: center;
     }
     .group{
@@ -176,6 +176,7 @@
         display: flex;
         justify-content: center;
         margin-top: 1em;
+        margin-left: 0em;
     }
     
     .overlap-group1{
