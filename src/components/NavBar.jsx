@@ -42,7 +42,9 @@ const NavBar=({activeLink})=>{
                             </Link>
                         </li>
                         <li>
-                            02 Crew
+                            <Link to={"/crew"} className={`links ${activeLink === "Crew" ? "acti" : ""} ? 'acti' : ''}`}>
+                                02 Crew
+                            </Link>
                         </li>
                         <li>
                             <Link to={"/technology"}  className={`links ${activeLink === "Technology" ? "acti" : ""} : ''}`}>

@@ -61,7 +61,7 @@
     font-size: 16px;
 }
 /* ---------------------------DESKTOP ----------------------------------------- */
-@media only screen and (min-height: 768px) {
+@media only screen and (min-width: 993px) {
     .dest-main{
         background-image: url(../assets/destination/background-destination-desktop.jpg);
         height: 110vh;
@@ -76,7 +76,7 @@
 
 /* TABLET */
 
-@media only screen and (max-width: 768px )and (min-width: 600px){
+@media only screen and (min-width: 601px) and (max-width: 992px) {
     .dest-main{
         background-image: url(../assets/destination/background-destination-tablet.jpg);
         height: 123vh;
@@ -130,7 +130,7 @@
  @media only screen and (max-width: 600px ){
     .dest-main{
         background-image: url(../assets/destination/background-destination-mobile.jpg);
-        height: 200vh;
+        height: 210vh;
         width: 120%;
         padding-right: 10EM;
         background-repeat: no-repeat;
@@ -145,7 +145,8 @@
         margin-left: 5em;
     }
     .details p{
-        font-size: 18px;
+        font-size: 24px;
+        width: 180%;
     }
     .sub{
         flex-direction: column;
@@ -153,6 +154,7 @@
     }
     .sub-nav{
         margin-left: 1em;
+        font-size: 24px;
     }
     .more{
         margin-left: 8em;

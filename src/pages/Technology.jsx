@@ -8,6 +8,7 @@ const Technology=()=>{
     const [technologyName, setTechnology] = useState("Launch vehicle")
     const handleClick = (value)=>{
         setTechnology(value);
+        console.log(technologyName)
     }
     return(
         <div className="tech-main">

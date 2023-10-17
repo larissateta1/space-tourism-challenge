@@ -1,0 +1,128 @@
+.sub-crew{
+    margin-left: 8em;
+    margin-top: 4em;
+}
+.sub-crew .heading{
+    font-weight: 500;
+}
+.crew-nav{
+    display: flex;
+    margin-left: 8em;
+    margin-top: -2em;
+}
+.activee{
+    background-color: white;
+    height: 100px;
+}
+
+.crew-nav div{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.137);
+    color: #0b0d17;
+    margin-left: 3em;
+    cursor: pointer;
+}
+.crew-nav div:hover{
+    background-color: white;
+}
+.memberDetails{
+    display: flex;
+    padding-right: 3em;
+}
+.memberDetails img{
+    width: 78%;
+    margin-right: 7em;
+    
+}
+.role, .name{
+    text-transform: uppercase;
+    font-family:'Bellefair', serif;
+}
+.role{
+    font-size: 32px;
+    color: #949292;
+}
+.name{
+    font-size: 56px;
+}
+.detai{
+    margin-top: 10em;
+    margin-left: 10em;
+    
+}
+.detai p{
+    font-size: 18px;
+    width: 50%;
+}
+/* ---------------------------DESKTOP ----------------------------------------- */
+@media only screen and (min-width: 993px) {
+    .crew{
+        background-image: url("../assets/crew/background-crew-desktop.jpg");
+        height: 150vh;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+}
+
+/* ---------------------------TABLET ----------------------------------------- */
+
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+    .crew{
+        background-image: url('../assets/crew/background-crew-tablet.jpg');
+        height: 180vh;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .memberDetails{
+        flex-direction: column-reverse;
+    }
+    .memberDetails img{
+        width: 50%;
+        margin-left: 15em;
+        margin-top: 3em;
+        border-bottom: 1px solid #949292;
+    }
+    .crew-nav{
+        margin-top: 3em;
+    }
+    .detai p{
+        width: 70%;
+    }
+}
+
+/* --------------------------- MOBILE ----------------------------------------- */
+
+@media only screen and (max-width: 600px){
+    .crew{
+        background-image: url('../assets/crew/background-crew-mobile.jpg');
+        height: 250vh;
+        width: 180%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .crew .heading{
+        margin-left: -7em;
+        font-size: 32px;
+    }
+    .memberDetails{
+        flex-direction: column-reverse;
+    }
+    .memberDetails img{
+        width: 70%;
+        margin-left: 10em;
+        margin-top: 3em;
+        border-bottom: 1px solid #949292;
+    }
+    .crew-nav{
+        margin-top: 5em;
+    }
+    .detai p{
+        width: 80%;
+        font-size: 24px;
+    }
+}

@@ -57,7 +57,7 @@
     margin: 10em;
 }
 /* ---------------------------DESKTOP ----------------------------------------- */
-@media only screen and (min-height: 768px) {
+@media only screen and (min-width: 993px) {
     .tech-main{
         background-image: url(../assets/technology/background-technology-desktop.jpg);
         height: 120vh;
@@ -68,10 +68,10 @@
 }
 /* --------------------------- TABLET ----------------------------------------- */
 
-@media only screen and (max-width: 768px )and (min-width: 600px){
+@media only screen and (min-width: 601px) and (max-width: 992px) {
     .tech-main{
         background-image: url('../assets/technology/background-technology-tablet.jpg');
-        height: 150vh;
+        height: 200vh;
         width: 100%;
         background-repeat: no-repeat;
         background-size: cover;
